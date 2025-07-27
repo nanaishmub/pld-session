@@ -1,8 +1,8 @@
-let myArray = ['Aisha', 'Irenimoyan', 'Faith', 'Sam'];
-            // 0           1            2       3
+// let myArray = ['Aisha', 'Irenimoyan', 'Faith', 'Sam'];
+//             // 0           1            2       3
 
 
-// for (let i = 1; i < 10; i *= 2){
+// for (let i = 1; i < 10; i += 2){
 //     console.log(i);
 // }
 // const myObj = {
@@ -19,11 +19,27 @@ let myArray = ['Aisha', 'Irenimoyan', 'Faith', 'Sam'];
 // }
 
 
-const name = 'Micheal'; //integer
-const age = 17; //string
+// const name = 'Micheal'; //integer
+// const age = 17; //string
 
-if (name === 'alex' || age === 17) {
-    console.log('it works!');
-}else {
-    console.log('it doesnt work');
+// if (name === 'alex' || age === 17) {
+//     console.log('it works!');
+// }else {
+//     console.log('it doesnt work');
+// }
+
+// let age = 0;
+
+// while (age <= 15){
+//     console.log ("you're 15!!", age);
+//     age++;
+// }
+
+let userAge = prompt('Please enter your age: ');
+
+while (userAge < 18){
+    alert("You're underage");
+    break;
 }
+
+ 
