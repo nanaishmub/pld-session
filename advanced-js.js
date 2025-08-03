@@ -1,15 +1,16 @@
-// //Array destructor
-// const myArray = ['apple', 'mango', 'orange', 'blueberry'];
-// const [first, second, third] = myArray;
-// console.log(`My favourite fruit is a ${second}`);
-// // console.log(myArray);
+// 
 
-//Object Destructor
-const person = {
-    name: 'Sam',
-    age: 17,
+//Spread Operator
+// const arr1 = [1, 2, 3, 4, 5, 6];
+// const arr2 = [7, 8, 9, 0];
+// const arr3 = [...arr1, ...arr2];
+// console.log(arr3);
+
+//Rest Operator
+function sum(...number){
+    return number.reduce((total, num) => total + num, 0);
 }
 
-const {name, age} = person;
+let result = sum(1, 2, 3, 4, 5);
 
-console.log(`My name is ${name}, I am ${age} years old`);
+console.log(result);
