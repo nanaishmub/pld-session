@@ -2,8 +2,8 @@ let name = 'Aisha';
 let age = 5;
 let isStudent = true;
 let address = {
-    city: 'Kano',
-    country: 'Nigeria'
+    city: 'Kano', 
+    country: 'Nigeria' 
 };
 let hobbies = ['boxing', 'surfing', 'arhery', 'cooking', 'eating'];
 let undefinedVariable;

@@ -35,11 +35,15 @@
 //     age++;
 // }
 
-let userAge = prompt('Please enter your age: ');
+// let userAge = prompt('Please enter your age: ');
 
-while (userAge < 18){
-    alert("You're underage");
-    break;
+// do{
+//     alert("You're underage");
+//     break;
+// }while (userAge < 18)
+
+function myFunction(a, b) {
+   console.log(a * b); // returns the product of a and b
 }
 
- 
+myFunction(15, 6);
